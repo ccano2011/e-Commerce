@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Navbar from '../components/Navbar/Navbar';
+import Footer from '../components/Footer/Footer';
 import MobileNav from '../components/MobileNav/MobileNav';
 import Hero from '../components/HeroSection/Hero';
 import { homeObjOne, homeObjTwo, homeObjThree } from '../components/InfoSection/Data';
@@ -20,6 +21,7 @@ function Home() {
             <InfoSection {...homeObjTwo} />
             <Services />
             <InfoSection {...homeObjThree} />
+            <Footer />
         </>
     );
 }
